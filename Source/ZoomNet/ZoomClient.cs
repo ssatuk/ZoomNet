@@ -161,6 +161,9 @@ namespace ZoomNet
 		/// </summary>
 		public ICallLogs CallLogs { get; private set; }
 
+		/// <inheritdoc/>
+		public IWorkspaces Workspaces { get; private set; }
+
 		#endregion
 
 		#region CTOR
@@ -265,6 +268,7 @@ namespace ZoomNet
 			Dashboards = new Dashboards(_fluentClient);
 			Reports = new Reports(_fluentClient);
 			CallLogs = new CallLogs(_fluentClient);
+			Workspaces = new Workspaces(_fluentClient);
 		}
 
 		/// <summary>
