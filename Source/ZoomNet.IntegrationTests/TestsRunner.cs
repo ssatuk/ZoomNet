@@ -143,6 +143,7 @@ namespace ZoomNet.IntegrationTests
 				typeof(CallLogs),
 				typeof(Chat),
 				typeof(CloudRecordings),
+				typeof(ContactCenter),
 				typeof(Contacts),
 				typeof(Dashboards),
 				typeof(Meetings),
