@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net48;netstandard2.1;net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>net6.0</TargetFrameworks>
     <LangVersion>preview</LangVersion>
     <PlatformTarget>anycpu</PlatformTarget>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -67,7 +67,7 @@
     <None Include="..\..\README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
-  <ItemGroup>
+ <ItemGroup>
     <AdditionalFiles Include="$(SolutionDir)stylecop.json" Link="stylecop.json" />
   </ItemGroup>
 
